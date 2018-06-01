@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('skeleton-website:server');
+var debug = require('debug')('cryptocurrency-tracker:server');
 var http = require('http');
 
 /**
