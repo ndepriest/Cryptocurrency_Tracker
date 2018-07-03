@@ -1,0 +1,11 @@
+Localhost address:
+http://localhost:3000/
+
+To start server:
+npm start
+
+To stop server:
+control + c
+
+Updating aliases:
+https://superuser.com/questions/602872/how-do-i-modify-my-git-bash-profile-in-windows
