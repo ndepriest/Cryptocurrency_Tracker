@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+var watchlistRouter = require('./routes/watchlist');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
@@ -18,9 +19,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); // this is connecting the public folder that holds my
-// static files to the current machines directory name to host the static content. __dirname is a global variable. 
+// static files to the current machines directory name to host the static content. __dirname is a global variable.
 
 app.use('/', indexRouter);
+app.use('/', watchlistRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler

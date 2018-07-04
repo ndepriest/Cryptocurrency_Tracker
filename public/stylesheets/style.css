@@ -33,7 +33,6 @@ li a:hover {
 h1 {
   color: black;
   text-align: center;
-
 }
 
 a {
@@ -45,7 +44,14 @@ table {
     width: 100%;
 }
 
-th, td {
+th {
+  color: white;
+  background-color: #1c1e22;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
     text-align: left;
     padding: 8px;
 }
