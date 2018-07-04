@@ -9,3 +9,25 @@ control + c
 
 Updating aliases:
 https://superuser.com/questions/602872/how-do-i-modify-my-git-bash-profile-in-windows
+
+General Dev Path:
+ * Basic blank webpage running with Node.js, Express, Handlebar, and hooked up customer CSS and JS (DONE)
+ * On the home page, show icon for a single cryptocurrency, with a hardcoded "current price"
+ * Make the "current price" field update by getting data from a testing server via API get call
+        * Build testing server (Task for Reed)
+        * Make the API call happen via a button called "Get Prices" first
+        * Then figure out how to make it run auto on some determined time scale
+ * Display two cryptocurrency icon / price sections and hook up price data
+ * Now may be the time for fixing any issues and thinking about how many cryptos will be displayed. Do any needed refactors.
+ * Add a navigation bar to the top that will take the user to "All Current Prices", "Price History", and "Favorites" with no navigation. (done)
+ * Hook up routing navigation for the navabar with Express:
+   Leave "Price History" and "Favorites" pages blank other than a static title at first, just make the navigation work.
+        * "All Current Prices" has already been built and will show all cryptos being tracked by the system with current price
+        * "Price History" tab will require a database to store data over time via a small graph.
+        * "Favorites" will need the database, and a way for a page user to select a crypto as a favorite, and then have it show up on the favorites page. 
+        No need for individual user logins yet.
+ * Hook up MongoDB to the app and learn how to write data to a database table
+ * Make a single crypto write data to a table whenever the API runs auto or via button push
+ * Make a different crypto write price data to another database table
+ * Make all cryptos have there own DB table and write price data
+ * Hook up all this price data to a way of graphing that data in the "Price History" page.
