@@ -17,7 +17,8 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'))); // this is connecting the public folder that holds my
+// static files to the current machines directory name to host the static content. __dirname is a global variable. 
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
