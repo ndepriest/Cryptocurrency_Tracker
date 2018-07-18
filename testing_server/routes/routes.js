@@ -6,15 +6,15 @@ var appRouter = function (app) {
         var data = ({
             "data": [
                 {
-                    "id": 1, 
-                    "name": "Bitcoin", 
-                    "symbol": "BTC", 
+                    "id": 1,
+                    "name": "Bitcoin",
+                    "symbol": "BTC",
                     "website_slug": "bitcoin"
-                }, 
+                },
                 {
-                    "id": 2, 
-                    "name": "Litecoin", 
-                    "symbol": "LTC", 
+                    "id": 2,
+                    "name": "Litecoin",
+                    "symbol": "LTC",
                     "website_slug": "litecoin"
                 }
             ]
@@ -22,5 +22,5 @@ var appRouter = function (app) {
         res.status(200).send(data);
       });
   }
-  
+
   module.exports = appRouter;

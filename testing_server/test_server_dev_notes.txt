@@ -7,5 +7,5 @@ control + c
 To view data
 http://localhost:8000/cryptos
 
-Note that this server runs on port 8000, not 300 like the main server.
+Note that this server runs on port 8000, not 3000 like the main server.
 That way both can be ran at the same time.
