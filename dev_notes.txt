@@ -24,10 +24,15 @@ General Dev Path:
    Leave "Price History" and "Favorites" pages blank other than a static title at first, just make the navigation work.
         * "All Current Prices" has already been built and will show all cryptos being tracked by the system with current price
         * "Price History" tab will require a database to store data over time via a small graph.
-        * "Favorites" will need the database, and a way for a page user to select a crypto as a favorite, and then have it show up on the favorites page. 
+        * "Favorites" will need the database, and a way for a page user to select a crypto as a favorite, and then have it show up on the favorites page.
         No need for individual user logins yet.
  * Hook up MongoDB to the app and learn how to write data to a database table
  * Make a single crypto write data to a table whenever the API runs auto or via button push
  * Make a different crypto write price data to another database table
  * Make all cryptos have there own DB table and write price data
  * Hook up all this price data to a way of graphing that data in the "Price History" page.
+
+-- market API info: https://coinmarketcap.com/api/
+ **Make a constant variable appear in an HTML field with Javascript variable (td)
+ **Success would be seeing the value in Market Cap
+ **Make a value accessing the Javascript data object appear in market cap HTML
