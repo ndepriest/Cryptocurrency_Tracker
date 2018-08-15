@@ -31,6 +31,8 @@ General Dev Path:
  * Make a different crypto write price data to another database table
  * Make all cryptos have there own DB table and write price data
  * Hook up all this price data to a way of graphing that data in the "Price History" page.
+ ** Find a way to identify if a string has a space.
+ ** Find a way to replace a space with an underscore.
 
 -- market API info: https://coinmarketcap.com/api/
  **Make a constant variable appear in an HTML field with Javascript variable (td)
